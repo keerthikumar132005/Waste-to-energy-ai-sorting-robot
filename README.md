@@ -49,7 +49,7 @@ The system consists of multiple components:
 
 ### Architecture Diagram
 
-link: samplediagram.png
+![Architechture Diagram](https://bit.ly/high-level-architecture-diagram)
 
 ---
 
