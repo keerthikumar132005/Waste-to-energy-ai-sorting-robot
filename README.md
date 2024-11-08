@@ -22,7 +22,6 @@ The project includes:
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -109,13 +108,63 @@ link: samplediagram.png
     php artisan serve
     ```
 ### Frontend Setup
-1. *Install dependencies*:
+1. *Go to the frontend folder*:
     ```bash
-    composer install
+    cd ../frontend
 2. *Install dependencies*:
     ```bash
-    composer install
-3. *Install dependencies*:
+    npm install
+3. *Start the frontend server*:
     ```bash
-    composer install
+    npm start
+    ```
+### Chatbot Serverless Setup (AWS Lambda)
+1.  *Set up an AWS Lambda function for chatbot responses*.
+2.  *Deploy your chatbot model to Lambda and configure the endpoint in the frontend*.
+### Usage
+1.  ***Dashboard**: View real-time stats on waste sorting, energy generation, and robot activity.*
+2.  ***Chatbot**: Query information about system metrics, waste sorting, and energy output.*
+3.  ***Robot Uploads**: Robots will periodically upload waste and energy data for tracking.*
 
+### API Documentation
+*Refer to the API Documentation for details on available endpoints.*
+
+### Example Endpoints
+*   GET /api/dashboard/energy-stats: Fetch energy statistics.
+*   POST /api/chat/respond: Interact with the chatbot.
+*   POST /api/robot/upload-waste: Robots upload waste data.
+*   POST /api/robot/upload-energy: Robots upload energy data.
+
+## Testing
+###  Backend Testing
+1.  *Run All Tests*:
+    ```bash
+    php artisan test
+2. *Testing Structure*:
+    *   Feature Tests: Tests for chatbot, dashboard, and robot endpoints.
+    *   Unit Tests: Model-specific tests, including WasteRecord and EnergyRecord.
+### Frontend Testing
+1.  *Run Frontend Tests*:
+    ```bash
+    npm test
+    ```
+### Robot Testing (Python)
+*Test the waste sorting AI model using sample images and ensure accurate waste categorization.*
+
+##  Contributing
+1. *Fork the repository.*
+2. *Create a new branch (git checkout -b feature-branch).*
+3. *Make your changes and commit (git commit -am 'Add new feature').*
+4. *Push the branch (git push origin feature-branch).*
+5. *Open a Pull Request.*
+
+##  Roadmap
+*   Phase 1: AI-powered waste sorting robot setup.
+*   Phase 2: Dashboard and chatbot implementation.
+*   Phase 3: Serverless inference setup and chatbot integration.
+*   Phase 4: Integration testing and optimization.
+
+##  Contact
+*For further queries or support, contact:*
+*   Keerthi Kumar - Project Lead
+*   Email: keerthikumar132005@gmail.com
