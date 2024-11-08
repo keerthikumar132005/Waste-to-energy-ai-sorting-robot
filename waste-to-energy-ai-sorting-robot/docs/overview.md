@@ -18,8 +18,7 @@ The project consists of three main components:
 
 ### High-Level Architecture Diagram
 
-![Architecture Diagram](architecture_diagram.png)
-
+![Architecture Diagram](https://bit.ly/high-level-architecture-diagram)
 ## Main Components
 
 - **AI Model**: A machine learning model used by robots for waste classification.
