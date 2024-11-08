@@ -13,7 +13,7 @@
 Clone the repository to your local environment:
 
 ```bash
-git clone https://github.com/keerthikumar132005/Waste-to-energy-ai-sorting-robot](https://github.com/keerthikumar132005/Waste-to-energy-ai-sorting-robot.git
+git clone https://github.com/keerthikumar132005/Waste-to-energy-ai-sorting-robot.git
 cd project-root
 ```
 
