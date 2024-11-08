@@ -88,4 +88,34 @@ link: samplediagram.png
    ```bash
    git clone https://github.com/keerthikumar132005/Waste-to-energy-ai-sorting-robot.git
    cd Waste-to-energy-ai-sorting-robot
+### Backend Setup
+
+1. *Navigate to the backend folder*:
+    ```bash
+    cd src/backend
+2. *Install dependencies*:
+    ```bash
+    composer install
+3. *Configure environment settings*:
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+4. *Set up the database in .env file.*
+5. *Run migrations*:
+    ```bash
+    php artisan migrate
+6. *Serve the backend*:
+    ```bash
+    php artisan serve
+    ```
+### Frontend Setup
+1. *Install dependencies*:
+    ```bash
+    composer install
+2. *Install dependencies*:
+    ```bash
+    composer install
+3. *Install dependencies*:
+    ```bash
+    composer install
 
